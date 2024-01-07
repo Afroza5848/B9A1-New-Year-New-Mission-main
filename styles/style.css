@@ -10,6 +10,23 @@ h1,h2,h3,h4,h5,h6{
 body{
     font-family: 'Inter', sans-serif;
 }
+.common-btn{
+    padding: 16px 32px;
+    color: #fff;
+    background-color: #F00;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    transition: 1s;
+}
+
+.common-btn:hover{
+    background-color: rgb(128, 3, 3);
+}
+
 /* header style */
 header{
     padding: 50px 0;
@@ -58,7 +75,7 @@ header .banner .banner-text h2{
     color: #F00;
     font-size: 88px;
     font-weight: 700;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 #category .categories span{
     color: #F00;
@@ -73,9 +90,53 @@ header .banner .banner-text h2{
     margin-bottom: 40px;
 }
 #category .categories .category-img{
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
 }
 #category .categories .category-img img{
+    width: 100%;
+}
+
+
+/* midnight perty section */
+#perty{
+    padding: 50px 0;
+}
+#perty .perty-details{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../resources/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0;
+}
+#perty .perty-details .perty-text{
+    width: 400px;
+    
+}
+#perty .perty-details .perty-text *{
+    color: #fff;
+    margin-bottom: 20px;
+}
+#perty .perty-details .perty-text h2{
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7px;
+}
+#perty .perty-details .perty-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#perty .perty-details .perty-year{
+    width: 300px;
+}
+#perty .perty-details .perty-year img{
     width: 100%;
 }
