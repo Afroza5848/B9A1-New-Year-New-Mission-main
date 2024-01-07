@@ -14,7 +14,7 @@ body{
 header{
     padding: 50px 0;
 }
-header .container{
+.container{
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
@@ -44,4 +44,38 @@ header .banner .banner-text h2{
     color: #fff;
     font-size: 72px;
     font-weight: 900;
+}
+/* categories */
+
+#category{
+    padding: 50px 0;
+}
+#category .categories *{
+    text-align: center;
+    display: block;
+}
+#category .categories strong{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+#category .categories span{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+#category .categories p{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#category .categories .category-img{
+    width: 700px;
+    margin: 0 auto;
+}
+#category .categories .category-img img{
+    width: 100%;
 }
