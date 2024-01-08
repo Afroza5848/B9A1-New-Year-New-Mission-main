@@ -185,8 +185,8 @@ header .banner .banner-text h2{
 #new-year-offer .new-year-offer-details *{
     gap: 80px;
 }
-#new-year-offer .new-year-offer-details .same{
-    width: 30%;
+#new-year-offer .new-year-offer-details >.same{
+    width: 25%;
 }
 #new-year-offer .new-year-offer-details .offer-text span{
     color: #F00;
@@ -204,4 +204,31 @@ header .banner .banner-text h2{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px; /* 160% */
+    }
+    #new-year-offer .new-year-offer-details .offer-text *{
+        margin-bottom: 30px;
+    }
+    #new-year-offer .new-year-offer-details .offer-img img{
+        width: 100%;
+    }
+    #new-year-offer .new-year-offer-details .offer-img{
+        border: 15px solid #F00;
+        border-radius: 50%;
+        padding: 49px;
+    }
+    #new-year-offer .new-year-offer-details .offer-year strong{
+        color: #F00;
+        font-size: 48px;
+        font-weight: 700;
+        
+    }
+    #new-year-offer .new-year-offer-details .offer-year p{
+        color: rgba(7, 2, 17, 0.60);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px; 
+    }
+    
+    #new-year-offer .new-year-offer-details .offer-year *{
+        margin-bottom: 30px;
     }
