@@ -293,11 +293,13 @@ header .banner .banner-text h2{
     position: absolute;
     right: 0;
     bottom: 151px;
+    z-index: -1;
 }
 #discount .discount-wrap .discount-img .img-4{
     position: absolute;
     right: 250px;
     bottom: 210px;
+    
 }
 #discount .discount-wrap .discount-img .img-3 img{
     width: 100%;
