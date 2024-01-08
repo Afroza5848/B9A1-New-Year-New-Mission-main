@@ -236,7 +236,7 @@ header .banner .banner-text h2{
     /* discount */
  #discount{
     padding: 50px 0;
-    height: 150vh;
+    height: 132vh;
  }   
 #discount .discount-wrap .discount-text{
     width: 800px;
@@ -373,4 +373,68 @@ header .banner .banner-text h2{
 }
 #portfolio .portfolio-wrap .portfolio-img-wrap .img-row2 .single-img:hover img{
     opacity: .5;
+}
+
+/* newsletter */
+#newsletter{
+    padding: 40px 0;
+}
+#newsletter .newsletter-wrap{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+#newsletter .newsletter-wrap .newsletter-text{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#newsletter .newsletter-wrap .newsletter-text .news-img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 30px;
+}
+#newsletter .newsletter-wrap .newsletter-text .news-img img{
+    width: 100%;
+}
+#newsletter .newsletter-wrap .newsletter-text h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+#newsletter .newsletter-wrap .newsletter-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+#newsletter .newsletter-wrap .newsletter-text *{
+    margin-bottom: 30px;
+}
+#newsletter .newsletter-wrap .newsletter-text .news-submit{
+    width: 600px;
+}
+#newsletter .newsletter-wrap .newsletter-text .news-submit input[type="email"]{
+    border: none;
+    outline: none;
+    background: #fff;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    padding: 25px 45px;
+    position: relative;
+    left: 0;
+    border-radius: 50px 0 0 50px;
+}
+#newsletter .newsletter-wrap .newsletter-text .news-submit input[type="button"]{
+    background-color: #F00;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 24px 35px;
+    position: absolute;
+    border-radius: 0 50px 50px 0;
 }
