@@ -45,6 +45,7 @@ header .banner{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner-Image.png');
     background-size: cover;
     position: relative;
+    height: 100vh;
 }
 header .banner .banner-text{
     width: 632px;
@@ -119,7 +120,7 @@ header .banner .banner-text h2{
     position: relative;
 }
 #perty .perty-details .perty-text{
-    width: 500px;
+    width: 400px;
     
 }
 #perty .perty-details .perty-text *{
@@ -176,9 +177,16 @@ header .banner .banner-text h2{
 }
 #new-year-offer .new-year-offer-details{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    
+
+}
+#new-year-offer .new-year-offer-details *{
     gap: 80px;
+}
+#new-year-offer .new-year-offer-details .same{
+    width: 30%;
 }
 #new-year-offer .new-year-offer-details .offer-text span{
     color: #F00;
