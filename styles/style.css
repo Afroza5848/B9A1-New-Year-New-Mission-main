@@ -40,7 +40,7 @@ header .banner{
     
     background-repeat: no-repeat;
     background-position: center;
-    padding: 220px 0px;
+    padding: 280px 0px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner-Image.png');
     background-size: cover;
@@ -48,6 +48,7 @@ header .banner{
     justify-content: center;
     align-items: center;
     position: relative;
+    /* height: 600px; */
 }
 header .banner .banner-text{
     /* width: 632px; */
@@ -476,6 +477,7 @@ footer .web-sector .wev-site .site img{
     width: 24px;
     height: 24px;
     margin-right: 12px;
+    
 }
 footer .line{
     width: 100%;
