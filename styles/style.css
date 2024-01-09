@@ -39,8 +39,8 @@ header{
 header .banner{
     
     background-repeat: no-repeat;
-    background-position: center;
-    padding: 280px 0px;
+    background-position: left, right, center;
+    padding: 240px 0px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner-Image.png');
     background-size: cover;
@@ -55,6 +55,7 @@ header .banner .banner-text{
     /* margin: 0 auto; */
     text-align: center;
     position: absolute;
+    
     /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */ 
